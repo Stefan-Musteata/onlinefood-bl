@@ -1,0 +1,45 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html{ height:100%}
+// body::after{ content:''; display:block; height:100px; }
+
+body {
+  min-height: 100%;
+  position: relative;
+  color: #383838;
+  font-family: system-ui;
+  //font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  a {
+    color: #127ba4;
+    &:hover {
+      color: #696969;
+    }
+    
+  }
+}
+
+a {
+  color: #424242;
+&:hover {
+  text-decoration: none;
+  color: #00b10f;
+}
+}
+.navbar {
+  ul {
+    li {
+      a {
+        color: #424242;
+        padding: 0 10px;
+        &.active {
+          color: #00b10f;
+        }
+      }
+    }
+  }
+}

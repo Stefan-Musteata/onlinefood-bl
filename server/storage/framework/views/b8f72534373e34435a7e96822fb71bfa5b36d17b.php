@@ -1,0 +1,1 @@
+'tester'<?php /**PATH D:\xampp\htdocs\onlinefood-bl\server\resources\views/email/email_for_user.blade.php ENDPATH**/ ?>
