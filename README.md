@@ -9,6 +9,12 @@
 8. from the folder "/server" copy ".env.example" file to ".env" and edit the database credentials there
 9. "/server", run "php artisan key:generate"
 10. "/server", either run the php server locally like "php -S localhost:8000 -t public" or php artisan serve
+11. "/server" run "php artisan storage:link" for read images from storage/images
+12. "/server" run "composer require tymon/jwt-auth" for register/auth, link: https://jwt-auth.readthedocs.io/en/develop/laravel-installation/
+13. "/server" run "php artisan key:generate
+                   php artisan jwt:secret
+                   php artisan cache:clear
+                   php artisan config:clear"
 
 
 ### In case you have troubles migrating the tables and getting the seed data you can do the following
